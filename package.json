@@ -1,0 +1,22 @@
+{
+  "name": "loopback-microservices",
+  "version": "1.0.0",
+  "description": "Sample microservice with loopback",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/secretboy9x/loopback-microservices.git"
+  },
+  "keywords": [
+    "loopback"
+  ],
+  "author": "SecretBoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/secretboy9x/loopback-microservices/issues"
+  },
+  "homepage": "https://github.com/secretboy9x/loopback-microservices#readme"
+}
