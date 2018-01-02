@@ -13,38 +13,8 @@
       "./mixins"
     ]
   },
-  "User": {
-    "dataSource": "postgres",
-    "public": false
-  },
-  "AccessToken": {
-    "dataSource": "postgres",
-    "public": false
-  },
-  "ACL": {
-    "dataSource": "postgres",
-    "public": false
-  },
-  "RoleMapping": {
-    "dataSource": "postgres",
-    "public": false,
-    "options": {
-      "strictObjectIDCoercion": true
-    }
-  },
-  "Role": {
-    "dataSource": "postgres",
-    "public": false
-  },
-  "Classes": {
+  "Equipment": {
     "dataSource": "postgres",
     "public": true
-  },
-  "CustomUser": {
-    "dataSource": "postgres",
-    "public": true
-  },
-  "Email":{
-    "dataSource":"EmailDataSource"
   }
 }

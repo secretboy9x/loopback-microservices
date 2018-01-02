@@ -11,22 +11,5 @@
     "min": 5,
     "max": 200,
     "idleTimeoutMillis": 60000
-  },
-  "EmailDataSource": {
-    "name": "EmailDataSource",
-    "connector": "mail",
-    "transports":[{
-      "type":"SMTP",
-      "host":"smtp.gmail.com",
-      "secure":true,
-      "port":465,
-      "tls":{
-        "rejectUnauthorized":false
-      },
-      "auth":{
-        "user":"doidekji@gmail.com",
-        "pass":"01652693867"
-      }
-    }]
   }
-}
+  }
