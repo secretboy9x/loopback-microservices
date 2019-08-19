@@ -1,0 +1,59 @@
+{
+    "logging": {
+      "application": {
+        "console": {
+          "level": "info",
+          "colorize": true
+        },
+        "file": {
+          "timestamp": true,
+          "json": false,
+          "filename": "logs/app.log",
+          "maxFiles": 5,
+          "maxsize": 10485760,
+          "level": "info"
+        }
+      },
+      "debug": {
+        "console": {
+          "level": "debug",
+          "colorize": true
+        },
+        "file": {
+          "timestamp": true,
+          "json": false,
+          "filename": "logs/debug.log",
+          "maxFiles": 5,
+          "maxsize": 10485760,
+          "level": "debug"
+        }
+      },
+      "errors": {
+        "console": {
+          "level": "error",
+          "colorize": true
+        },
+        "file": {
+          "timestamp": true,
+          "json": false,
+          "filename": "logs/errors.log",
+          "maxFiles": 5,
+          "maxsize": 10485760,
+          "level": "error"
+        }
+      },
+      "exception": {
+        "console": {
+          "colorize": true
+        },
+        "file": {
+          "timestamp": true,
+          "json": false,
+          "filename": "logs/exception.log",
+          "maxFiles": 5,
+          "maxsize": 10485760,
+          "level": "error"
+        }
+      }
+    }
+  }

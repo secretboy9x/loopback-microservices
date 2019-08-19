@@ -1,0 +1,15 @@
+{
+  "postgres": {
+    "host": "localhost",
+    "port": 5433,
+    "url": "",
+    "database": "first-loopback",
+    "password": "admin",
+    "name": "postgres",
+    "user": "postgres",
+    "connector": "postgresql",
+    "min": 5,
+    "max": 200,
+    "idleTimeoutMillis": 60000
+  }
+  }
